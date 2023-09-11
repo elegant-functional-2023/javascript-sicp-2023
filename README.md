@@ -11,7 +11,6 @@ SICP 스터디 저장소
 - 스터디 기록
   - 녹음 후 서기가 정리
   - Github 에 모든 걸 정리
-    - 책을 읽으며 궁금한 점은 [Discussion](https://github.com/elegant-functional-2023/javascript-sicp-2023/discussions)에 정리 & 자유롭게 답변 달기
 
 ## 스터디 정책
 
@@ -34,14 +33,14 @@ SICP 스터디 저장소
 
 ### 질의응답
 
-- Github Discussion에 각 주차별 디스커션을 열고 거기에 질의응답 하기
+- [Github Discussion](https://github.com/elegant-functional-2023/javascript-sicp-2023/discussions)에 각 주차별 디스커션을 열어 질문 및 자유롭게 답변 달기
 
 ### 진행자
 
 - 호스트 O
   - 부호스트 X
 - 서기 O
-  - 대신 실시간 X,
+  - 실시간 X
   - 끝나고 클로바 노트 정리 (큰 줄기 정도만 정리)
 
 ### 스터디 방식
