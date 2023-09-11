@@ -58,7 +58,7 @@ SICP 스터디 저장소
 
 ## 진도표
 
-### 1주차 (9/16)
+### [1주차 (9/16)](https://github.com/elegant-functional-2023/javascript-sicp-2023/discussions/1)
 
  1. 책(1장): 43p - 110p 읽어오기
  2. 연습문제: 28번 까지 풀어오기
