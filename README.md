@@ -25,7 +25,7 @@ SICP 스터디 저장소
 
 - 해당 주차에 있는 연습문제 모두 풀어오기 (약 20개)
   - 증명 등은 풀어오지 않아도 됨
-- 연습문제 답지: https://sicp-solutions.net/
+- 연습문제 답지: <https://sicp-solutions.net/>
 
 ### 회고
 
@@ -61,18 +61,31 @@ SICP 스터디 저장소
 
 ### [1주차 (9/16)](https://github.com/elegant-functional-2023/javascript-sicp-2023/discussions/1)
 
+> 호스트: 승희 / 서기: 민경
+>
+
  1. 책(1장): 43p - 110p 읽어오기
- 2. 연습문제: 28번 까지 풀어오기
+ 2. 연습 문제: 28번 까지 풀어오기
  3. 끝나기 전 20분 정도 방식 얘기 나누기
 
+### [2주차 (9/23)](https://github.com/elegant-functional-2023/javascript-sicp-2023/discussions/3)
+
+> 호스트: 민경 / 서기: 승희
+>
+
+1. `복습`: 1.2 문제 풀어오기 (14, 15, 17, 20, 21, 22, 23, 24, 26)
+2. `진도`: 1.3 읽어오고 정리 & 의견 나누기
+3. `미래 정하기`: 1.3 에서 풀 문제 정하기
+
 ## 출석표
+
 | 이름   | github id      | 0주차 | 1주차 | 2주차 | 3주차 | 4주차 | 5주차 | 6주차 | 7주차 | 8주차 |
 | ------ | -------------- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 박선희 | [@sunhpark42](https://github.com/sunhpark42)    |   ✅   |      |      |      |      |      |      |      |       |
-| 강민경 | [@ddongule](https://github.com/ddongule)      |   ✅   |      |      |      |      |      |      |      |       |
-| 안현철 | [@iborymagic](https://github.com/iborymagic)    |   ✅   |      |      |      |      |      |      |      |       |
-| 이지수 | [@thgr8ganzi](https://github.com/thgr8ganzi)    |   ✅   |      |      |      |      |      |      |      |       |
-| 조승희 | [@sa02045](https://github.com/sa02045)       |   ✅   |      |      |      |      |      |      |      |       |
-| 이한결 | [@hanana1253](https://github.com/hanana1253)    |   ✅   |      |      |      |      |      |      |      |       |
-| 김주현 | [@chloe-codes1](https://github.com/chloe-codes1)  |   ✅   |      |      |      |      |      |      |      |       |
+| 박선희 | [@sunhpark42](https://github.com/sunhpark42)    |   ✅   |   ✅   |      |      |      |      |      |      |       |
+| 강민경 | [@ddongule](https://github.com/ddongule)      |   ✅   |   ✅   |      |      |      |      |      |      |       |
+| 안현철 | [@iborymagic](https://github.com/iborymagic)    |   ✅   |   ✅   |      |      |      |      |      |      |       |
+| 이지수 | [@thgr8ganzi](https://github.com/thgr8ganzi)    |   ✅   |   ✅   |      |      |      |      |      |      |       |
+| 조승희 | [@sa02045](https://github.com/sa02045)       |   ✅   |   ✅   |      |      |      |      |      |      |       |
+| 이한결 | [@hanana1253](https://github.com/hanana1253)    |   ✅   |   ✅   |      |      |      |      |      |      |       |
+| 김주현 | [@chloe-codes1](https://github.com/chloe-codes1)  |   ✅   |   ✅   |      |      |      |      |      |      |       |
 | 김동희 | [@bigsaigon333](https://github.com/bigsaigon333)  |   ✅   |   결석   |      |      |      |      |      |      |       |
