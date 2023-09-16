@@ -39,6 +39,11 @@ const answer3 = (num1, num2, num3) => {
   return targetNumber.reduce((acc, current) => acc + current * current, 0);
 };
 
+const anotherAnswer3 = (num1, num2, num3) => {
+  const minNumber = Math.min(num1, num2, num3);
+  return num1 * num1 + num2 * num2 + num3 * num3 - minNumber * minNumber;
+};
+
 /**
  * 1.4
  */
@@ -74,7 +79,11 @@ const answer5 = `
  * 1.6
  */
 
-const answer6 = `동일한 결과가 발생한다..?`;
+const answer6 = `
+    1. 인수 적용되기 전에 항상 평가된다.
+    2. 인수를 평가할 때 sqrt_iter 는 본일을 재귀적으로 호출하기 때문에
+    무한루프에 빠진다.
+`;
 
 /**
  * 1.7
@@ -115,6 +124,14 @@ const answer7 = `
 /**
  * 1.8
  */
+
+const answer8 = `
+    const is_good_enough = (guess, x) => abs(guess * guess * guess - x) < 0.001;
+    const 세제곱근_구하기 = (guess, x) =>
+    is_good_enough(guess, x)
+        ? guess
+        : 세제곱근_구하기((x / (guess * guess) + 2 * guess) / 3, x);
+`;
 
 /**
  * 1.9
