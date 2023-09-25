@@ -77,15 +77,24 @@ SICP 스터디 저장소
 2. `진도`: 1.3 읽어오고 정리 & 의견 나누기
 3. `미래 정하기`: 1.3 에서 풀 문제 정하기
 
+### [3주차 (10/7)](https://github.com/elegant-functional-2023/javascript-sicp-2023/discussions/4)
+
+> 호스트: 승희 / 서기: 한결
+>
+
+1. `복습`: 1.3 문제 풀어오기  - 1.30, 1.31, 1.32, 1.34,  1.35, 1.37, 1.40, 1.41, 1.42, 1.43, 1.44 (11문제)
+3. `진도`: 2.1까지 읽어오고 정리 & 의견 나누기  (괜찮으면 2.2까지)
+4. `미래 정하기`: 2.1 에서 풀 문제 정하기
+
 ## 출석표
 
 | 이름   | github id      | 0주차 | 1주차 | 2주차 | 3주차 | 4주차 | 5주차 | 6주차 | 7주차 | 8주차 |
 | ------ | -------------- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 박선희 | [@sunhpark42](https://github.com/sunhpark42)    |   ✅   |   ✅   |      |      |      |      |      |      |       |
-| 강민경 | [@ddongule](https://github.com/ddongule)      |   ✅   |   ✅   |      |      |      |      |      |      |       |
-| 안현철 | [@iborymagic](https://github.com/iborymagic)    |   ✅   |   ✅   |      |      |      |      |      |      |       |
-| 이지수 | [@thgr8ganzi](https://github.com/thgr8ganzi)    |   ✅   |   ✅   |      |      |      |      |      |      |       |
-| 조승희 | [@sa02045](https://github.com/sa02045)       |   ✅   |   ✅   |      |      |      |      |      |      |       |
-| 이한결 | [@hanana1253](https://github.com/hanana1253)    |   ✅   |   ✅   |      |      |      |      |      |      |       |
-| 김주현 | [@chloe-codes1](https://github.com/chloe-codes1)  |   ✅   |   ✅   |      |      |      |      |      |      |       |
-| 김동희 | [@bigsaigon333](https://github.com/bigsaigon333)  |   ✅   |   결석   |      |      |      |      |      |      |       |
+| 박선희 | [@sunhpark42](https://github.com/sunhpark42)    |   ✅   |   ✅   |   ✅   |      |      |      |      |      |       |
+| 강민경 | [@ddongule](https://github.com/ddongule)      |   ✅   |   ✅   |   ✅   |      |      |      |      |      |       |
+| 안현철 | [@iborymagic](https://github.com/iborymagic)    |   ✅   |   ✅   |   ✅   |      |      |      |      |      |       |
+| 이지수 | [@thgr8ganzi](https://github.com/thgr8ganzi)    |   ✅   |   ✅   |   ✅   |      |      |      |      |      |       |
+| 조승희 | [@sa02045](https://github.com/sa02045)       |   ✅   |   ✅   |   ✅   |      |      |      |      |      |       |
+| 이한결 | [@hanana1253](https://github.com/hanana1253)    |   ✅   |   ✅   |   ✅   |      |      |      |      |      |       |
+| 김주현 | [@chloe-codes1](https://github.com/chloe-codes1)  |   ✅   |   ✅   |   ✅   |      |      |      |      |      |       |
+| 김동희 | [@bigsaigon333](https://github.com/bigsaigon333)  |   ✅   |   결석   |   ✅   |      |      |      |      |      |       |
