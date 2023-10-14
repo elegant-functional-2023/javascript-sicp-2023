@@ -23,27 +23,30 @@ function y_point(point: Point) {
   return tail(point);
 }
 
-function make_point(x: number, y: number) {
+function make_point(x: number, y: number): Point {
   return pair(x, y);
 }
 
 function make_segment(start_point: Point, end_point: Point): Segment {
-  return [
-    [x_point(start_point), y_point(start_point)],
-    [x_point(end_point), y_point(end_point)],
-  ];
+  return pair(start_point, end_point);
 }
 
 function start_segment(segment: Segment): Point {
-  return make_point(x_point(segment[0]), y_point(segment[0]));
+  return head(segment);
 }
 
 function end_segment(segment: Segment): Point {
-  return make_point(x_point(segment[1]), y_point(segment[1]));
+  return tail(segment);
 }
 
+// point 인터페이스를 사용한 mid_point
+function mid_point(p1: Point, p2: Point) {
+  return make_point((x_point(p1) + x_point(p2)) / 2, (y_point(p1) + y_point(p2)) / 2);
+}
+
+// mid_point 인터페이스와 segment 인터페이스를 사용한 mid_point_segment
 function midpoint_segment(segment: Segment): Point {
-  return make_point((x_point(segment[0]) + x_point(segment[1])) / 2, (y_point(segment[0]) + y_point(segment[1])) / 2);
+  return mid_point(start_segment(segment), end_segment(segment));
 }
 
 console.log(midpoint_segment(make_segment(make_point(1, 2), make_point(3, 4)))); // [2, 3]
@@ -51,16 +54,18 @@ console.log(midpoint_segment(make_segment(make_point(1, 2), make_point(3, 4))));
 // 2.3
 type Rectangle = [Segment, Segment, Segment, Segment];
 
-// 직사각형 아래처럼 정의
-//  p1 p3
-//  p2 p4
 function get_segment_length(segment: Segment): number {
   return Math.sqrt(
-    Math.pow(x_point(segment[0]) - x_point(segment[1]), 2) + Math.pow(y_point(segment[0]) - y_point(segment[1]), 2)
+    Math.pow(x_point(start_segment(segment)) - x_point(end_segment(segment)), 2) +
+      Math.pow(y_point(start_segment(segment)) - y_point(end_segment(segment)), 2)
   );
 }
 
+// 직사각형 모양
+// p1 p4
+// p2 p3
 function make_rectangle1(p1: Point, p2: Point, p3: Point, p4: Point): Rectangle {
+  // 직사각형 검증 로직은 생략
   return [make_segment(p1, p2), make_segment(p2, p4), make_segment(p3, p4), make_segment(p3, p1)];
 }
 
@@ -83,7 +88,7 @@ function get_rectangle_area(rectangle: Rectangle): number {
 
 console.log(
   get_rectangle_round(make_rectangle1(make_point(1, 2), make_point(1, 0), make_point(4, 2), make_point(4, 0)))
-); // 9
+);
 
 console.log(
   get_rectangle_round(
@@ -94,11 +99,11 @@ console.log(
       make_segment(make_point(4, 2), make_point(1, 2))
     )
   )
-); // 9
+);
 
 console.log(
   get_rectangle_area(make_rectangle1(make_point(1, 2), make_point(1, 0), make_point(4, 2), make_point(4, 0)))
-); // 6
+);
 
 console.log(
   get_rectangle_area(
@@ -109,7 +114,7 @@ console.log(
       make_segment(make_point(4, 2), make_point(1, 2))
     )
   )
-); // 6
+);
 
 // Q) 2.4
 
