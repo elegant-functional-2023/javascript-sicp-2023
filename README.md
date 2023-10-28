@@ -104,15 +104,26 @@ SICP 스터디 저장소
 2. `진도`: 2.3까지 읽어오고 정리 & 의견 나누기
 3. `미래 정하기`: 2.3 에서 풀 문제 정하기
 
+### [6주차 (10/28)](https://github.com/elegant-functional-2023/javascript-sicp-2023/discussions/9)
+
+> 호스트: 민경 / 서기: 지수
+>
+
+1. `복습`: 2.3 문제 풀어오기 (총 14문제)
+    - 2.28 ~ 2.53는 5의 배수만 풀어오기 (2.30, 2.35, 2.40, 2.45, 2.50)
+    - 2.54 ~ 2.70는 짝수번만 풀어오기 (2.54, 2.56, 2.58, 2.60, 2.62, 2.64, 2.66, 2.68, 2.70)
+2. `진도`: 2.4까지 읽어오고 정리 & 의견 나누기
+3. `미래 정하기`: 2.4 에서 풀 문제 정하기
+
 ## 출석표
 
 | 이름   | github id      | 0주차 | 1주차 | 2주차 | 3주차 | 4주차 | 5주차 | 6주차 | 7주차 | 8주차 |
 | ------ | -------------- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 박선희 | [@sunhpark42](https://github.com/sunhpark42)    |   ✅   |   ✅   |   ✅   |   ✅   |   결석   |      |      |      |       |
-| 강민경 | [@ddongule](https://github.com/ddongule)      |   ✅   |   ✅   |   ✅   |   지각   |   결석   |      |      |      |       |
-| 안현철 | [@iborymagic](https://github.com/iborymagic)    |   ✅   |   ✅   |   ✅   |   지각   |   ✅   |      |      |      |       |
-| 이지수 | [@thgr8ganzi](https://github.com/thgr8ganzi)    |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |      |      |      |       |
-| 조승희 | [@sa02045](https://github.com/sa02045)       |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |      |      |      |       |
-| 이한결 | [@hanana1253](https://github.com/hanana1253)    |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |      |      |      |       |
-| 김주현 | [@chloe-codes1](https://github.com/chloe-codes1)  |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |      |      |      |       |
-| 김동희 | [@bigsaigon333](https://github.com/bigsaigon333)  |   ✅   |   결석   |   ✅   |   ✅   |   ✅   |      |      |      |       |
+| 박선희 | [@sunhpark42](https://github.com/sunhpark42)    |   ✅   |   ✅   |   ✅   |   ✅   |   결석   |   결석   |      |      |       |
+| 강민경 | [@ddongule](https://github.com/ddongule)      |   ✅   |   ✅   |   ✅   |   지각   |   결석   |   ✅   |      |      |       |
+| 안현철 | [@iborymagic](https://github.com/iborymagic)    |   ✅   |   ✅   |   ✅   |   지각   |   ✅   |   ✅   |      |      |       |
+| 이지수 | [@thgr8ganzi](https://github.com/thgr8ganzi)    |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |      |      |       |
+| 조승희 | [@sa02045](https://github.com/sa02045)       |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |   지각   |      |      |       |
+| 이한결 | [@hanana1253](https://github.com/hanana1253)    |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |   결석   |      |      |       |
+| 김주현 | [@chloe-codes1](https://github.com/chloe-codes1)  |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |      |      |       |
+| 김동희 | [@bigsaigon333](https://github.com/bigsaigon333)  |   ✅   |   결석   |   ✅   |   ✅   |   ✅   |   지각   |      |      |       |
