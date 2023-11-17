@@ -21,6 +21,8 @@ function estimate_integral(trials) {
   const random_in_unit_circle = () => {
     const x = random_in_range(-1, 1);
     const y = random_in_range(-1, 1);
+
+    // 중심이 0이고 반지름이 1인 원 내부에 있는지 확인
     const distance = Math.sqrt(x * x + y * y);
     if (distance <= 1) {
       return true;
