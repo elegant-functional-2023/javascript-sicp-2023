@@ -13,8 +13,8 @@ function make_account(balance, password) {
     return balance;
   }
 
-  function dispatch(comparison_password, type) {
-    if (comparison_password !== password) {
+  function dispatch(_comparison_password, type) {
+    if (_comparison_password !== password) {
       throw Error("Incorrect password");
     }
 
