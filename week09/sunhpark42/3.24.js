@@ -8,29 +8,37 @@ const question = `본문의 테이블 구현은 키의 상등 판정에 equal을
 
 // README: 근데 이거 assoc을 same_key로 바꿔치기 하는거 말고 달라지는게 있나요..? (멍청..)
 
+function assoc(key, records, same_key = equal) {
+  return is_null(records)
+    ? undefined
+    : same_key(key, head(head(records)))
+    ? head(records)
+    : assoc(key, tail(records));
+}
+
 function make_table(same_key) {
   const local_table = list("*table*");
 
   function lookup(key_1, key_2) {
-    const subtable = same_key(key_1, tail(local_table));
+    const subtable = assoc(key_1, tail(local_table));
 
     if (is_undefined(subtable)) {
       return undefined;
     } else {
-      const record = same_key(key_2, tail(subtable));
+      const record = assoc(key_2, tail(subtable));
       return is_undefined(record) ? undefined : tail(record);
     }
   }
 
   function insert(key_1, key_2, value) {
-    const subtable = same_key(key_1, tail(local_table));
+    const subtable = assoc(key_1, tail(local_table));
     if (is_undefined(subtable)) {
       set_tail(
         local_table,
         pair(list(key_1, pair(key_2, value)), tail(local_table))
       );
     } else {
-      const record = same_key(key_2, tail(subtable));
+      const record = assoc(key_2, tail(subtable));
       if (is_undefined(record)) {
         set_tail(subtable, pair(pair(key_2, value), tail(subtable)));
       } else {
