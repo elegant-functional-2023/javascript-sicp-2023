@@ -14,3 +14,4 @@
 
 1. https://feel5ny.github.io/2019/11/10/JS_26_1/
 2. https://deview.kr/2021/sessions/518
+3. https://github.com/reactwg/react-18/discussions/46#discussioncomment-846650
