@@ -8,7 +8,7 @@ function stream_map_2(f, s1, s2)
 결과 스트림에 대해 메모화를 적용하는 함수 stream_map_2_optimized를 작성하라.`;
 
 const stream_map_2 = (f, s1, s2) => {
-  if (is_empty_list(s1) || is_empty_list(s2)) {
+  if (isEmptyStream(s1) || isEmptyStream(s2)) {
     return [];
   } else {
     return pair(f(head(s1), head(s2)), () =>
